@@ -1,0 +1,51 @@
+<div class="fst">
+    <img src="https://www.callcentrehelper.com/images/stories/2019/03/piggy-bank-orange-bg-760.jpg">
+    <h2>User Driven Sign Up - New User</h2>
+    <label>Account Number</label>
+    <input type="number" [(ngModel)]="list.accountnumber"> 
+    <!-- [(ngModel)] - Data binding -->
+    <p>(Account Number is available in your passbook and/or statement of account).</p>
+    <div class="second">
+        <label>CIF Number</label>
+        <input type="number" [(ngModel)]="list.cifnumber">
+        <p>(CIF Number is available in your passbook and/or statement of account)</p>
+    </div>
+    <div class="third">
+        <label>Branch Code</label>
+        <input type="number" [(ngModel)]="list.branchcode">
+        <p>(Please enter 5 digit branch code )</p>
+    </div>
+    <div class="forth">
+        <label>Country</label>
+        <input type="" [(ngModel)]="list.country">
+
+    </div>
+    <div class="fifth">
+        <label>Mobile Number</label>
+        <input type="number" [(ngModel)]="list.mobilenumber">
+        <p>(Please enter Mobile Number registered with Bank)</p>
+    </div>
+    <div class="six">
+        <h6>Dear Customer,</h6>
+        <br>
+        <p>After onboarding on SBI Online, the created user ID will be enabled for login through YONO and YONO Lite as well, in addition to SBI Online.</p>
+    </div>    
+    <div class="butt">   
+        <button>I Agree</button>
+        <button>I Disagree</button><br>
+    </div>    
+
+    
+    <div class="but">
+        <button (click)="sub()">Submit</button>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+

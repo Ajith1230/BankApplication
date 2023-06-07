@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {faBars} from '@fortawesome/free-solid-svg-icons';
+
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,25 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bank';
+  
+    status:boolean=false; 
+
+
+  icons = faBars;
+
+
+  
+
+  bar(){
+    this.status=!this.status;
+   
+  }
+  result(){
+    localStorage.clear(); // sessionStorage - save data in browser cache
+    alert("Account Successfully Logout");
+  }
+
+    
+    
+  
 }

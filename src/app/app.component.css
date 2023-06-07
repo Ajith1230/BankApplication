@@ -1,0 +1,92 @@
+
+
+.containar{
+    
+    margin-top: -560px;
+}
+.containar h2{
+    
+    text-align: center;
+    font-size: 30px;
+    
+    color: white;
+    font-weight: bold;
+    margin-top: -50px;
+}
+.reg ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+.reg li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.reg{
+    margin-left: 900px;
+    margin-top: -40px;
+}
+.home button{
+    width: 180px;
+    font-weight: bold;
+    
+    
+}
+.home li{
+    list-style-type: none;
+    margin-left: 1155px;  
+    font-weight: bold;    
+    
+}
+.home li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.home{
+    margin-left: -20px;
+}
+button:hover{
+    background-color: green;
+    color: black;
+
+}
+
+.home li button{
+
+    border: none;
+}
+.img img{
+    height: 580px;
+    width: 1350px;
+}
+
+.sec p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.sec {
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+
+.sec p a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.home {
+
+    position: fixed;
+}
